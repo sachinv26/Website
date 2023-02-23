@@ -32,7 +32,7 @@ export default [
       "A portflio website of me buit using HTML, CSS, and JavaScript. I made to opnesource during hacktoberfest",
     image:
       "https://user-images.githubusercontent.com/76443132/220920739-afdcbf8d-d878-40fb-91e0-dc4dadacd943.png",
-    github: "https://github.com/rakeshsangem/portflio",
-    live: "https://www.rakeshsangem.me",
+    github: "https://github.com/sachinv26/Updated-Portfolio",
+    live: "https://sachinvarma.me/",
   },
 ];
