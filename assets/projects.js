@@ -5,7 +5,7 @@ export default [
       "A portfolio website of sharks. During the MLH hackathon, it was built with React, Tailwind CSS, and GSAP.",
     image:
       "https://user-images.githubusercontent.com/54346106/193443537-deab1b57-450d-4a1b-885e-0bb417b09882.png",
-    github: "https://github.com/rakeshsangem/harkfolio",
+    github: "",
     live: "https://sharkfolio.vercel.app/",
   },
   {
@@ -23,8 +23,8 @@ export default [
       "A Ecommerce Website buit using HTML, CSS, and JavaScript. It has animations all over the watches and I made it during a hackathon",
     image:
       "https://user-images.githubusercontent.com/76443132/214965885-3c4b0f21-59e0-4ad4-90eb-93b14a2254a3.png",
-    github: "https://github.com/rakeshsangem/portflio",
-    live: "https://www.rakeshsangem.me",
+    github: "https://github.com/sachinv26/Ecommerce-Watches",
+    live: "https://ecommerce-watches.netlify.app/",
   },
   {
     title: "Portfolio",
@@ -32,15 +32,6 @@ export default [
       "A portflio website of me buit using HTML, CSS, and JavaScript. I made to opnesource during hacktoberfest",
     image:
       "https://user-images.githubusercontent.com/76443132/220920739-afdcbf8d-d878-40fb-91e0-dc4dadacd943.png",
-    github: "https://github.com/rakeshsangem/portflio",
-    live: "https://www.rakeshsangem.me",
-  },
-  {
-    title: "Portfolio",
-    description:
-      "A portflio website of me buit using HTML, CSS, and JavaScript. I made to opnesource during hacktoberfest",
-    image:
-      "https://user-images.githubusercontent.com/107752425/192083103-e773c142-6ed0-4223-8fca-62525c2f908a.png",
     github: "https://github.com/rakeshsangem/portflio",
     live: "https://www.rakeshsangem.me",
   },
