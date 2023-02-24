@@ -118,27 +118,30 @@ section .title span::after{
   left: 50%;
   transform: translateX(-50%);
 }
-.about .about-details .left{
-  width: 45%;
+.about .left{
+  width: 67%;
+  display: flex;
 }
 .about .left img{
   height: 400px;
   width: 400px;
   object-fit: cover;
   border-radius: 12px;
+  margin-left: auto;
 }
-.about-details .right{
-  width: 55%;
-}
+
 section  .topic{
   color: #0E2431;
   font-size: 25px;
   font-weight: 500;
   margin-bottom: 10px;
 }
-.about-details .right p{
+.right p{
   text-align: justify;
   color: #0E2431;
+  justify-content: r;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
 }
 section .button{
   margin: 16px 0;
@@ -776,3 +779,6 @@ footer a:hover {
     font-size: 4rem;
   }
 }
+
+
+
