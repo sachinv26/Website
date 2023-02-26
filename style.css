@@ -119,7 +119,7 @@ section .title span::after{
   transform: translateX(-50%);
 }
 .about .left{
-  width: 67%;
+  width: 63%;
   display: flex;
 }
 .about .left img{
