@@ -118,26 +118,19 @@ section .title span::after{
   left: 50%;
   transform: translateX(-50%);
 }
-/* .about .left{
-  margin-left: 36%;
+.about .left{
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
-} */
-/* .about .left img{
+  justify-content: center;
+}
+.about .left img{
   height: 400px;
   width: 400px;
   object-fit: cover;
   border-radius: 20px;
-  justify-content: center;
-  display: flex;
-} */
-img{
-  display: flex;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 20px;
-  object-fit: cover;
 }
+
 section  .topic{
   color: #0E2431;
   font-size: 25px;
