@@ -129,3 +129,9 @@ const projectsObserver = new IntersectionObserver((entries) => {
 
 // projectCard.forEach((card) => projectsObserver.observe(card));
 projectsObserver.observe(projectsContainer);
+
+
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
