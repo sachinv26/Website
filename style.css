@@ -12,13 +12,15 @@ body {
   scroll-behavior: smooth;
   height: 100%;
   margin: 0;
+  background-color: black;
+  color:white;
 }
 
 
-.dark-mode{
+/* .dark-mode{
   background-color: black;
   color: white;
-}
+} */
 
 body {
   min-height: 100vh;
@@ -36,17 +38,23 @@ a:active {
   color: inherit;
 }
 
+
 header {
   display: flex;
   width: 100%;
 }
 
 nav {
+  position: absolute;
+  z-index: 3;
   position: fixed;
   width: 100%;
   display: flex;
   padding: 10px 40px;
   justify-content: space-between;
+  background-color: black;
+
+  /* background-image: linear-gradient(to top, #4776e6 0%, #8e54e9 74%); */
 }
 
 nav > ul {
@@ -67,7 +75,7 @@ nav a {
 }
 
 nav svg {
-  margin: 10px;
+  margin: 9px;
 }
 
 .icons {
@@ -90,13 +98,19 @@ nav svg {
 
 /* Added this line */
 .left-align {
-  /* float: left;
+  float: left;
   margin: 0;
-  padding: 0; */
+  padding: 0;
 }
 
 
 
+nav .left-align li{
+  color: whitesmoke;
+  background: linear-gradient(to top, #4776e6 0%, #8e54e9 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 
 
@@ -110,8 +124,8 @@ nav svg {
 /* Hero section */
 section {
   padding: 0 40px;
+  
 }
-
 
 
 
@@ -137,7 +151,7 @@ section .title{
   margin-bottom: 40px;
 }
 section .title span{
-  color: #0E2431;
+  color: white;
   font-size: 30px;
   font-weight: 600;
   position: relative;
@@ -180,10 +194,15 @@ section  .topic{
 }
 .right p{
   text-align: justify;
-  color: #0E2431;
-  justify-content: r;
+  /* color: #7A5EE8; */
+  justify-content: left;
   font-family: "Poppins", sans-serif;
+  font-weight: 600;
   font-size: 20px;
+  background: #4776e6;
+  background: linear-gradient(to top, #4776e6 0%, #8e54e9 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 section .button{
   margin: 16px 0;
@@ -207,6 +226,7 @@ section .button button:hover{
 }
 
 .hero {
+margin-bottom: -17vh;
   width: 100%;
   min-height: 90vh;
   display: flex;
@@ -351,6 +371,7 @@ h3 {
   position: relative;
   min-height: 100vh;
   width: 100%;
+  z-index: -1;
 }
 
 .projectText {
