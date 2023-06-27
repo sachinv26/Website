@@ -41,51 +41,86 @@ header {
   width: 100%;
 }
 
-/* Navbar styling */
 nav {
+  position: fixed;
   width: 100%;
   display: flex;
   padding: 10px 40px;
-  align-items: center;
   justify-content: space-between;
 }
 
 nav > ul {
   list-style: none;
   display: flex;
-  gap: 100px;
+  gap: 50px;
+  /* Added this line */
 }
 
 nav a {
-  text-decoration: none;
-  color: #2f2f2f;
+  color: linear-gradient(to top, #4776e6 0%, #8e54e9 74%); /* Changed to purple */
   font-weight: 600;
   font-size: 1.5rem;
 }
+
 .hover-animation:hover {
   border-bottom: 2px solid blue;
 }
+
 nav svg {
   margin: 10px;
 }
+
 .icons {
+  /* Added this line */
   display: flex;
 }
+
 .icons > a {
   display: grid;
-  place-items: center;
-}
+  place-items: end;
+} 
+
 .icons a > svg path {
   fill: #2f2f2f;
 }
+
 .icons a:hover > svg path {
   fill: #4777e6;
 }
+
+/* Added this line */
+.left-align {
+  /* float: left;
+  margin: 0;
+  padding: 0; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Hero section */
 section {
   padding: 0 40px;
 }
+
+
+
+
+
+
+
+
+
+
 /* About Section Css */
 section .content{
   width: 80%;
