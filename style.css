@@ -229,7 +229,7 @@ section .button button:hover{
 }
 
 .hero {
-margin-bottom: -17vh;
+margin-bottom: -10vh;
   width: 100%;
   min-height: 90vh;
   display: flex;
