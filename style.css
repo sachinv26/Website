@@ -50,16 +50,12 @@ nav {
     padding: 10px 40px;
     margin-top: -10px;
     justify-content: space-between;
-    background-color: black;
-
-    /* background-image: linear-gradient(to top, #4776e6 0%, #8e54e9 74%); */
 }
 
 nav > ul {
     list-style: none;
     display: flex;
     gap: 60px;
-    /* Added this line */
 }
 
 nav a {
@@ -72,26 +68,17 @@ nav a {
     border-bottom: 2px solid blue;
 }
 
-nav svg {
-    margin: 9px;
-}
-
 .icons {
-    /* Added this line */
     display: flex;
+    gap: 20px;
 }
 
 .icons > a {
     display: grid;
-    place-items: end;
+    place-items: center;
 }
-
-.icons a > svg path {
-    fill: #2f2f2f;
-}
-
-.icons a:hover > svg path {
-    fill: #4777e6;
+.icons > a:hover {
+    color: #3c6ed9;
 }
 
 /* Added this line */
