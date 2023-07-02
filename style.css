@@ -42,13 +42,14 @@ header {
 }
 
 nav {
+    background-color: black;
     position: absolute;
     z-index: 3;
     position: fixed;
     width: 100%;
     display: flex;
-    padding: 10px 40px;
-    margin-top: -10px;
+    padding: 10px 50px;
+    margin-top: -2px;
     justify-content: space-between;
 }
 
@@ -89,7 +90,7 @@ nav a {
 }
 
 nav .left-align li {
-    color: whitesmoke;
+    color: white;
     font-size: 50px;
     background: linear-gradient(to top, #4776e6 0%, #8e54e9 74%);
     -webkit-background-clip: text;
