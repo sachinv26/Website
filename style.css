@@ -24,33 +24,33 @@ body {
     background-color: black;
     color: white;
 }
+
 body.dark-mode {
     background-color: white !important;
     color: black;
 }
-a,
-a:visited,
-a:hover,
-a:active {
-    text-decoration: none;
-    color: inherit;
-}
 
-header {
-    display: flex;
-    width: 100%;
-}
-
+/* Navbar */
 nav {
-    background-color : linear-gradient(to top, #4776e6 0%, #8e54e9 74%);
-    position: absolute;
-    z-index: 3;
     position: fixed;
     width: 100%;
-    display: flex;
     padding: 10px 50px;
-    margin-top: -2px;
+    display: flex;
     justify-content: space-between;
+    z-index: 3;
+    background-color: black; /* Default navbar color */
+}
+
+/* Light mode - white navbar */
+body.light-mode nav {
+    background-color: white; /* White background for light mode */
+    color: white;
+}
+
+/* Dark mode - black navbar */
+body.dark-mode nav {
+    background-color: black; /* Black background for dark mode */
+    color: white;
 }
 
 nav > ul {
@@ -60,10 +60,27 @@ nav > ul {
 }
 
 nav a {
-    color: linear-gradient(to top, #4776e6 0%, #8e54e9 74%); /* Changed to purple */
+    color: white; /* Ensure links are visible on black background */
     font-weight: 600;
     font-size: 1.5rem;
 }
+
+/* Light mode - white text */
+body.light-mode nav a {
+    color: black; /* Change link color to black in light mode */
+}
+
+body.dark-mode nav a {
+    color: white; /* Ensure links are white in dark mode */
+}
+
+nav .left-align li {
+    font-size: 50px;
+    background: linear-gradient(to top, #4776e6 0%, #8e54e9 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 .hover-animation:hover {
     border-bottom: 2px solid blue;
@@ -89,13 +106,7 @@ nav a {
     padding: 0;
 }
 
-nav .left-align li {
-    color: white;
-    font-size: 50px;
-    background: linear-gradient(to top, #4776e6 0%, #8e54e9 74%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+
 
 /* Hero section */
 section {
@@ -118,7 +129,7 @@ section .title {
     margin-bottom: 40px;
 }
 section .title span {
-    color: white;
+    color: #4070f4;
     font-size: 30px;
     font-weight: 600;
     position: relative;
